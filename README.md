@@ -35,9 +35,9 @@
 测试需要把 Agent 主仓加入导入路径：
 
 ```bash
-PYTHONPATH=/path/to/akasic-agent AKASHIC_AGENT_ROOT=/path/to/akasic-agent pytest -q
+PYTHONPATH=/path/to/roxy-agent ROXY_AGENT_ROOT=/path/to/roxy-agent pytest -q
 node --test tests/test_mobile_panel.mjs
-PYTHONPATH=/path/to/akasic-agent pyright plugin.py
+PYTHONPATH=/path/to/roxy-agent pyright plugin.py
 ```
 
 ### KVCacheCommandModule（`/kvcache` / `/cache_status`）
